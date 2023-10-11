@@ -1,0 +1,119 @@
+/* Write your CSS here */
+
+.appContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.commentsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1100px;
+}
+
+.line {
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dee0e3;
+  margin-top: 16px;
+}
+
+.commentsInput {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.formDescription {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  order: 0;
+  max-width: 300px;
+}
+
+.nameInput {
+  font-family: 'Roboto';
+  border-radius: 5px;
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  outline: none;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-top: 7px;
+}
+
+.commentInput {
+  font-family: 'Roboto';
+  border-radius: 5px;
+  border: 1px solid #cbd2d9;
+  outline: none;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.addButton {
+  background-color: #0284c7;
+  color: #cbd2d9;
+  padding: 5px;
+  height: 40px;
+  width: 120px;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border-radius: 5px;
+  align-self: flex-start;
+  margin-top: 15px;
+}
+
+.image {
+  width: 350px;
+}
+
+.smallHeading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.commentsCount {
+  background-color: #0284c7;
+  color: #dee0e3;
+  font-size: 12px;
+  font-family: 'Roboto';
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 4px;
+}
+
+.commentsList {
+}
